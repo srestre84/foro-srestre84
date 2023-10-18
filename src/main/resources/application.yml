@@ -1,0 +1,31 @@
+spring:
+  profile.active: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/mi_basededatos
+    username: root
+    password: Asesor1234*
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect # Aquí debes especificar el dialecto de tu base de datos
+        hbm2ddl.auto: update # Opciones: validate, update, create, create-drop, none (elige la que mejor se adapte a tus necesidades)
+
+server:
+  error:
+    include-stacktrace: never
+jwt:
+  secret-key: 123455
+
+#spring.datasource.url=jdbc:mysql://localhost/mi_basededatos
+#spring.datasource.username=root
+#spring.datasource.password=Asesor1234*
+#
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.format_sql=true
+#
+#server.error.include-stacktrace=never
+#
+#api.security.secret=${JWT_SECRET:123455}
+
