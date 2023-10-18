@@ -7,3 +7,4 @@ Este proyecto aun no cuenta con la interfaz grafica, pero se realizo todo el bac
 Gracias a Alura y todo su equipo, ademas quiero hacer una mencion especial a mi amigo que me ayudo mucho con este proyecto. https://github.com/WolfMozart8 gracias por estar ahi desde chile, te deseo lo mejor en nuestra carrera y en todos los aspectos. 
 
 
+https://github.com/srestre84/foro-srestre84/blob/foro-con-comentarios/foroalura.png
